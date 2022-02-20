@@ -1,0 +1,151 @@
+
+.clearfix:after {
+    display:block;
+    clear:both;          
+}
+.wrapper {
+    width:100%;
+    background:#DBFFFA;
+}
+/*----- Phần menu -----*/
+.menu {
+    width:100%;
+    margin:0px auto;
+    background:#DBFFFA;
+    height: 10%;
+}
+.menu li {
+    margin:0px;
+    list-style:none;
+    font-family:'Arial';
+	
+}
+.menu a {
+    color:#DBFFFA;
+    text-decoration:none;
+	border-radius: 15px;
+	border-radius: 15px;
+}
+.menu ul>li>a:hover {
+    text-decoration:none;
+    color:black;
+	background:#BCB5FA;
+} 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+} 
+/*----- css cho phần menu cha -----*/
+.menu > ul > li {
+   
+    display:inline-block;
+    position:relative;
+    font-size:30;
+}
+.menu > ul > li > a {
+    padding: 20px 60px;
+    display:inline-block;
+    color:black;
+	padding-bottom: 20px;
+	margin:0px auto;
+}
+.img1{margin-left:100px;
+	margin-top:50px;
+}
+.kieu1{
+	margin-top:95px;
+	font-size:40;
+	font-family:'verdana';
+	text-align:center;
+}
+
+.col-md-5 {
+    width: 40%;
+}
+.col-md-2 {
+    width: 30%;
+}
+.col-md-1 {
+    width: 10%;
+}
+footer{
+     position: relative;
+     width: 100%;
+     height: auto;
+     padding: 50px 100px;
+     background: #BCB5FA;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+	 margin-top:20px;
+	 color:black;
+ }
+footer .container{
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     flex-direction: row;
+ }
+ 
+ footer  .container .noi-dung.about{
+	 margin-right:30px;
+	 margin-left:30px;
+ }
+ .social-icon{
+     display: inline-flex;
+	
+ }
+ .social-icon li {
+     list-style: none;
+	
+ }
+ .social-icon li a{
+    display: inline-block;
+    width: 50px;
+	height: 50px;
+	 
+ }
+ .social-icon li a:hover{
+     background: black;
+	 padding-bottom:20px;
+ }
+ .social-icon li a .fa{
+     color: #fff;
+     font-size: 25px;
+	 margin-left:15px;
+	 margin-top:30px;
+	
+ }
+ /*
+ .links {
+	 
+    width: 25%;
+	 
+ }
+ .contact{
+	 width:25%;
+ }*/
+.links ul li{
+	 list-style: none;
+	 color:#0C4BEB;
+ }
+
+ 
+ .contact ul li{
+	 list-style: none;
+ }
+ .contact .info{
+     position: relative;
+ }
+ .contact .info li{
+     display: flex;
+     margin-bottom: 16px;
+ }
+ .contact .info li span {    
+     font-size: 20px;
+     margin-right: 10px;
+ }
+.fa {
+	color:white;
+	font-size:25;
+}
